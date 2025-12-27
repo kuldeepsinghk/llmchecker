@@ -1,11 +1,10 @@
-package com.llm.checker.statespace;
+package com.llm.checker.statespace.resourceagent;
 
 public class LLMStateCheckerMain {
     public static void main(String[] args) {
 
         // 1. Create initial system state
-        SystemState initial =
-                InitialStateFactory.createInitialState();
+        SystemState initial = InitialStateFactory.createInitialState();
 
         // 2. Create explorer
         StateExplorer explorer = new StateExplorer();

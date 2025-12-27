@@ -1,7 +1,7 @@
-package com.llm.checker.statespace.try1;
+package com.llm.checker.statespace.resourceagent.try1;
 
-import com.llm.checker.statespace.SystemState;
-import com.llm.checker.statespace.Transition;
+import com.llm.checker.statespace.resourceagent.SystemState;
+import com.llm.checker.statespace.resourceagent.Transition;
 
 import java.util.ArrayList;
 import java.util.List;

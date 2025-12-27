@@ -1,5 +1,5 @@
-package com.llm.checker.statespace.try1;
-import com.llm.checker.statespace.*;
+package com.llm.checker.statespace.resourceagent.try1;
+import com.llm.checker.statespace.resourceagent.*;
 
 class Commit implements Transition {
     private final int agentId;

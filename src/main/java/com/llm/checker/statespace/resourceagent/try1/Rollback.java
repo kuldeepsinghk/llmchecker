@@ -1,6 +1,6 @@
-package com.llm.checker.statespace.try1;
+package com.llm.checker.statespace.resourceagent.try1;
 
-import com.llm.checker.statespace.*;
+import com.llm.checker.statespace.resourceagent.*;
 
 
 class Rollback implements Transition {

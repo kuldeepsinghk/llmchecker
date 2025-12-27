@@ -1,4 +1,4 @@
-package com.llm.checker.statespace;
+package com.llm.checker.statespace.resourceagent;
 
 import java.util.Map;
 import java.util.Objects;
@@ -16,7 +16,7 @@ public class SystemState {
    public boolean equals(Object o) {
       if (this == o) return true;
       if (!(o instanceof SystemState that)) return false;
-       return steps == that.steps && Objects.equals(resources, that.resources) && Objects.equals(agents, that.agents);
+      return steps == that.steps && Objects.equals(resources, that.resources) && Objects.equals(agents, that.agents);
    }
 
    @Override

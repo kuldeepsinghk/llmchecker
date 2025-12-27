@@ -1,5 +1,8 @@
-package com.llm.checker.statespace.try1;
-import com.llm.checker.statespace.*;
+package com.llm.checker.statespace.resourceagent.try1;
+import com.llm.checker.statespace.resourceagent.AgentState;
+import com.llm.checker.statespace.resourceagent.AgentStatus;
+import com.llm.checker.statespace.resourceagent.SystemState;
+import com.llm.checker.statespace.resourceagent.Transition;
 
 class Retry implements Transition {
     private final int agentId;

@@ -1,8 +1,8 @@
-package com.llm.checker.statespace.try1;
+package com.llm.checker.statespace.resourceagent.try1;
 
-import com.llm.checker.statespace.AgentState;
-import com.llm.checker.statespace.ResourceState;
-import com.llm.checker.statespace.SystemState;
+import com.llm.checker.statespace.resourceagent.AgentState;
+import com.llm.checker.statespace.resourceagent.ResourceState;
+import com.llm.checker.statespace.resourceagent.SystemState;
 
 import java.util.HashMap;
 import java.util.HashSet;

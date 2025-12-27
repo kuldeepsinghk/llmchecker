@@ -1,6 +1,6 @@
-package com.llm.checker.statespace;
+package com.llm.checker.statespace.resourceagent;
 
-import com.llm.checker.statespace.try1.TransitionGenerator;
+import com.llm.checker.statespace.resourceagent.try1.TransitionGenerator;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -9,7 +9,7 @@ import java.util.Set;
 
 public class StateExplorer {
     Set<SystemState> visited = new HashSet<>();
-    static final int MAX_STEPS = 12;
+    static final int MAX_STEPS = 3;
 
     void explore(SystemState initial) {
         Deque<SystemState> stack = new ArrayDeque<>();

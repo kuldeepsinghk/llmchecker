@@ -1,4 +1,4 @@
-package com.llm.checker.statespace;
+package com.llm.checker.statespace.resourceagent;
 
 import java.util.HashMap;
 import java.util.Map;
